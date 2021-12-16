@@ -1,0 +1,9 @@
+A) Los cambios que se deben realizar son: En el htacces te tiene que redirigir al router de la api, Agregar un router, view y controller , y por ultimo agregar algunas funciones en el model para que solo te traiga algunas cosas espcificas de la db
+
+B) 
+A. UserName - GET - apiTaskController - showClientData()
+B. UserName - PUT - apiTaskController - modifyData()
+C. UserName/cards - GET - apiTaskController - showCards()
+D. UserName/activity - GET - apiTaskController - showActivity()
+E. UserName/activity - GET - apiTaskController - showRecordActivity()
+F. Username/cards/ :ID - DELETE - apiTaskController - deleteCard()

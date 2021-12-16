@@ -1,0 +1,19 @@
+A) 1. Una API REST es una arquitectura que se apoya totalmente en el protocolo HTTP. Esta proporciana una api que utiliza cada uno de los metodos del protocolo. Una URL representa un recurso que se puede acceder o modificar mediante los metodos del protocolo(GET,POST,PUT,DELETE).
+Una de las principales ventajas es que son independiente , es decir, se le puede a dar una api a diferentes equipos , ellos trabajen sobre esa api y no habria nigun problema. Al fin y al cabo al cliente no le interesa como esta echa la api y al servidor no le interesa que vas a hacer con esta misma , por esto es tambien muy flexible a la hora de desarrollar una aplicacion web
+
+2. Una de las funcionalidades que se le puede implementar es que puedas pasarle esa api a otra empresa para que usen los datos de los usuarios y asi estos podran ver o manejar sus actividades desde otra aplicacion. Ademas teniendo diferentes apis se podria dividir el trabajo haciendolo a este mas rapido y eficaz
+
+
+
+B) 1. Todos los recursos o aplicaciones estan alojados o son creades adentro del servidor , es decir , cuando un usuario envia un request el servidor le responde mandadole el html (response) y mostrandolo en el browser. Uno de los lenguajes mas conocidos y accesibles para hacer apps server side rendering es php
+
+2. Los HTTP Status codes indican si se ha completado o no una solicitud HTTP especifica. Las respues se dividen en 5 secciones :
+1- Respuestas informativas (100–199),
+2- Respuestas satisfactorias (200–299),
+3- Redirecciones (300–399),
+4- Errores de los clientes (400–499),
+5- Errores de los servidores (500–599).
+
+
+
+3. Las sesiones en php se crean mediante session_start(). Si la sesion no existe , la crea dandole una identidad unica, en cambio si ya existe esta permite que la pagina tenga acceso a la informacion vinculada a la sesion . Para leer o guardar datos desde un $_SESSION antes se debera iniciar una sesion. Normalmente cuando una persona intenta registrarse pero esta ya esta logueada se hace uso de los $_SESSION , antes se abre una sesion y se consulta si ya existe por ej: $_SESSION['Nombre'] = nombre de usuario
